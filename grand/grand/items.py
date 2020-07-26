@@ -9,29 +9,26 @@ from scrapy import Field, Item
 
 class GrandItem(Item):
     # Primary Fields
-    # Name of Developer
-    developer = Field()
+    # Title of Product
+    title = Field()
 
-    # Size of Area
-    area = Field()
+    # Total no of ratings
+    no_ratings = Field()
 
-    # Total number of bedrooms
-    no_bedroom = Field()
+    # Rating of product
+    rating = Field()
 
-    # Total number of bathrooms
-    no_bathroom = Field()
+    # Price of product
+    price = Field()
 
-    # Status of property
-    status = Field()
+    # # Status of property
+    # status = Field()
 
-    # Type of Property
-    property_type = Field()
+    # # Type of Property
+    # property_type = Field()
 
-    # If Car Parking Present
-    car_parking = Field()
+    # # If Car Parking Present
+    # car_parking = Field()
 
-    # If apartment is unfurnished
-    furnished_status = Field()
-
-
-    
+    # # If apartment is unfurnished
+    # furnished_status = Field()
